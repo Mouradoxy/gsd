@@ -1,7 +1,7 @@
 version: "3.8"
 services:
   web-fe:
-    image: mouradoxy/gsd:swarm-stack
+    image: mouradoxy/gsd:swarmstack
     command: python app.py
     deploy:
       replicas: 10
